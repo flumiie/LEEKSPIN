@@ -1,3 +1,5 @@
+document.addEventListener('contextmenu', (event) => event.preventDefault())
+
 document.getElementById('play').addEventListener('click', () => {
   document.getElementById('play').remove()
   document.getElementById('video').play()
