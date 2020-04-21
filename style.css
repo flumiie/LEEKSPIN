@@ -1,0 +1,46 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+}
+video {
+  z-index: 0;
+}
+.button {
+  z-index: 1;
+  color: #f00;
+  border: 2px solid #f00;
+  border-radius: 7px;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  transition: all 0.1s ease;
+}
+.button:hover {
+  background-color: #f00;
+  color: white;
+}
+#play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#timer-container {
+  display: none;
+  position: absolute;
+  bottom: 7px;
+  right: 6%;
+  width: 400px;
+  padding: 10px 15px;
+  background: #7a4a93;
+  text-align: center;
+}
+#timer-container span {
+  color: white;
+}
