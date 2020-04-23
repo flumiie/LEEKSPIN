@@ -21,7 +21,7 @@ document.getElementById('play').addEventListener('click', () => {
   let minutes = 0
   let seconds = 0
 
-  mainTimer = `&nbsp;&nbsp;${days} day${days > 1 ? 's' : ''} ${hours} hour${
+  mainTimer = `;${days} day${days > 1 ? 's' : ''} ${hours} hour${
     hours > 1 ? 's' : ''
   } ${minutes} minute${minutes > 1 ? 's' : ''} ${seconds} second${
     seconds > 1 ? 's' : ''
